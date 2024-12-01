@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4e2be1934.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Soham..png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>Video Editor</p>
+        <h1>Hi, I'am <span>Soham</span><br>Chavan Patil From  IIT (ISM) </h1>
+    </div>
+    </div>
+    </div>
+    <!---------------About------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1"> 
+                 <img src="images/IMG_2957.JPG"  >
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! I’m Soham Chavan Patil, a passionate web developer with a strong interest in video editing and film-making. As a member of 'Lights Camera ISM' at IIT ISM Dhanbad, I've developed my skills in creating compelling visual stories and managing video projects.
+
+                        I have a solid foundation in HTML, CSS, and JavaScript, and I enjoy bringing creative ideas to life through web development. My projects focus on building user-friendly and visually appealing websites. I am also exploring the integration of basic machine learning models to enhance functionality and provide innovative solutions.
+                        
+                        I'm currently seeking opportunities to contribute and grow professionally. I'm open to working for free initially to prove my capabilities and build strong professional relationships.
+                        
+                        Feel free to explore my projects and get in touch if you'd like to collaborate or discuss any opportunities. Let’s create something amazing together!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul><li><span>Video Editing</span><br>Capturing Moments, Perfecting Cuts</li>
+                                <li><span>Web developer</span><br>Bringing Ideas to the Web</li>
+                                <li><span>Machine learning</span><br>Unlocking AI Potential</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul><li><span>Lights Camera ISM</span><br>Official Film making Club of IIT(ISM) Dhanbad</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul><li><span>2021</span><br>Podar International School, Kolhapur.</li>
+                                <li><span>2022-2023</span><br>Chhatrapati Shahu Vidyalaya, Kolhapur.
+                                </li>
+                                <li><span>2023-2027</span><br>IIT (ISM) Dhanbad.</li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-----------------services-------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Transforming raw footage into captivating visual stories.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and innovative websites tailored to your needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Harnessing data to empower intelligent decision-making and automation.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------Portfolio------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <video src="images/Adjustment Layer_1.mp4" muted></video>
+                    <div class="layer">
+                        <h3>Youtube Video</h3>
+                        <p>
+                            Enhancing your videos with professional editing for a captivating YouTube presence.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <video src="images/Goa Vlogs (2).mp4" muted></video>
+                    <div class="layer">
+                        <h3>Vlogs</h3>
+                        <p>
+                        Crafting engaging and seamless edits to elevate your vlogs
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <video src="images/IMG_6430_5.mp4" muted></video>
+                    <div class="layer">
+                        <h3>Cinematic Reel
+                        
+                        </h3>
+                        <p>
+                            Creating stunning cinematic reels that captivate and inspire.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"><h1 class="subtitle">
+                    Contact Me
+                </h1>
+            <p><i class="fa-solid fa-envelope"></i> soham.3.9016@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91 9511969016</p>
+            <div class="socialicons">
+                <a href="https://www.instagram.com/soham_9016_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/soham-chavan-patil-2708aa290/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Soham_9016"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="images/Profile.pdf" download class="btn btn2">Download CV   <i class="fa-solid fa-download"></i></a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Soham. Made with <i class="fa-solid fa-heart"></i> by Soham </p>
+        </div>
+    </div>
+<script src="script.js">
+    
+</script>
+</body>
+</html>
